@@ -1,0 +1,29 @@
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor .elementor-background-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF00 20%, #050505 91%);
+    opacity: 1;
+    transition: background .3s, border-radius .3s, opacity .3s;
+}
+
+.elementor-background-overlay-left {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(90deg,#050505 51%,#0505059E 100%);
+    opacity: 1;
+    transition: background .3s,border-radius .3s,opacity .3s;
+}
